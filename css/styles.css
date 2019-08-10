@@ -35,10 +35,15 @@ nav{
     padding-right: 100px;
     line-height: 40px;
 }
-#projects{
+#project{
     background-image: url(./../images/winepress.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height:200px;
+    height:600px;
 
+}
+.list {
+    float:right;
+    font-size:14px;
+    margin-top:20px;
 }
