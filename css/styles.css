@@ -1,3 +1,10 @@
+*{
+    background-color: black;
+}
 h1{
-    color: blue;
+    color:pink;          
+}
+#index img {
+    width:60%;
+    height:450px;
 }
