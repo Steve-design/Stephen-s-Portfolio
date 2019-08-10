@@ -18,21 +18,39 @@ aside {
 aside h2 {
     padding-left: 30px;
 }
-nav>ul>li>a{
-    text-decoration: none;  
-    color:white;
-}
 nav{
-    display:inline-block;
     text-align: right;
+display: inline;
+margin-bottom:20px;
 }
-nav{
-    background-color:red;
-   
+nav ul li{
+    float: left
 }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-bottom: 40px;
+  }
+  nav ul li a {
+    display: block;
+    width: 60px;
+    padding: 8px 16px;
+
+    color: red;
+  
+  text-decoration: none;
+  }
+  nav ul li a:hover {
+    background-color:blue;
+    color: white;
+  }
+
+
+
+
 #me {
     font-size: 20px;
-    padding-right: 100px;
+    /* padding-right: 100px; */
     line-height: 40px;
 }
 #project{
