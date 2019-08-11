@@ -65,3 +65,12 @@ nav ul li{
     font-size:14px;
     margin-top:20px;
 }
+#education{
+    float:left;
+}
+#job {
+    float:right;
+}
+#hobbies{
+    margin-top:500px;
+}
